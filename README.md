@@ -1,13 +1,16 @@
-# PCA: EXP-1  SUM ARRAY GPU
-<h3> NAME</h3> ALAN ZION H
-<h3> REGISTER NO</h3>212223240004
-<h3>EX. NO</h3>1
-<h3>DATE</h3>
+#  EXP-1  SUM ARRAY GPU
+<h3>NAME:ALAN ZION H</h3>
+<h3>REGISTER NO: 212223240004</h3>
 <h1> <align=center> SUM ARRAY ON HOST AND DEVICE </h3>
+  
 PCA-GPU-based-vector-summation.-Explore-the-differences.
+
 i) Using the program sumArraysOnGPU-timer.cu, set the block.x = 1023. Recompile and run it. Compare the result with the execution configuration of block.x = 1024. Try to explain the difference and the reason.
 
+
 ii) Refer to sumArraysOnGPU-timer.cu, and let block.x = 256. Make a new kernel to let each thread handle two elements. Compare the results with other execution confi gurations.
+
+
 ## AIM:
 
 To perform vector addition on host and device.
